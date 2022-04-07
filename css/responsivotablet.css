@@ -1,0 +1,179 @@
+.menu-toggle {
+  cursor: pointer;
+
+  height: 40px;
+
+  position: absolute;
+  right: 5em;
+  top: 1.8em;
+
+  display: none;
+}
+.menu-toggle div {
+  width: 32px;
+  height: 2px;
+
+  background-color: #fff;
+
+  margin: 8px;
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    overflow-x: hidden;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .menu-principal {
+    display: none;
+
+    position: absolute;
+    left: 0;
+    top: 6em;
+
+    background-color: #132235;
+
+    padding-top: 12em;
+    padding-bottom: 1em;
+  }
+  .menu-principal li {
+    width: 100%;
+  }
+  .menu-principal a {
+    color: #6ddad3;
+    font-size: 2em;
+
+    display: block;
+
+    border: none;
+
+    padding: 0.4em 0 0.4em 2.6em;
+  }
+  .menu-principal.toggle-ativado {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+
+    width: 100%;
+  }
+
+  .primeiro-titulo,
+  .segundo-titulo {
+    font-size: 1em;
+  }
+
+  .img-quartos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .quartos-img {
+    opacity: 1;
+  }
+  .quartos-img .inf {
+    background-color: #fff;
+
+    color: #132235;
+  }
+
+  .sobre-container h1 {
+    font-size: 1.5em;
+  }
+  .sobre-container p {
+    font-size: 1em;
+  }
+
+  iframe {
+    width: 80%;
+  }
+
+  .tipos-de-servicos {
+    padding-bottom: 1.4em;
+  }
+
+  .tipos-de-servicos h1 {
+    font-size: 1.5em;
+  }
+  .tipos-de-servicos p {
+    font-size: 1em;
+  }
+
+  .img-kitnet {
+    opacity: 1;
+  }
+  .img-kitnet:hover {
+    transform: none;
+  }
+
+  .fale-conosco h1 {
+    font-size: 1.5em;
+  }
+
+  form {
+    font-size: 0.8em;
+    color: #073b7e;
+
+    background-color: rgb(202, 211, 226);
+  }
+
+  form button {
+    font-size: 0.8em;
+    width: 20%;
+  }
+
+  .rodape {
+    width: 100vw;
+  }
+
+  .redes-sociais h1 {
+    font-size: 2em;
+
+    margin: 0;
+  }
+  .redes-sociais i {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* .container {
+    width: 100%;
+  } */
+
+  .descricao-servicos {
+    width: 50%;
+
+    margin: 0 40px;
+
+    padding-left: 4em;
+  }
+
+  .container-fotos-moradia {
+    margin: 0 40px;
+  }
+
+  .algumas-moradias h1 {
+    text-align: center;
+  }
+
+  form {
+    width: 80%;
+    height: 80%;
+  }
+  textarea {
+    width: 90%;
+    height: 40%;
+  }
+
+  form button {
+    font-size: 0.6em;
+  }
+}

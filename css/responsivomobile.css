@@ -1,0 +1,115 @@
+@media screen and (max-width: 550px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  .menu-principal {
+    padding-top: 10em;
+  }
+  .menu-principal a {
+    padding: 0.3em 0 0.3em 1.4em;
+  }
+
+  .primeiro-titulo {
+    font-size: 0.8em;
+  }
+
+  .tipos-de-servicos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tipos-de-servicos div {
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .descricao-servicos {
+    padding-right: 4em;
+
+    border: none;
+  }
+  .descricao-servicos h1 {
+    text-align: center;
+  }
+
+  .fale-conosco {
+    margin-top: 2em;
+  }
+
+  form {
+    height: 65%;
+  }
+
+  .formulario {
+    height: 80%;
+  }
+
+  form button {
+    font-size: 0.5em;
+  }
+
+  .rodape.container {
+    padding-top: 0.8em;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .link-img-logo {
+    margin-left: 3em;
+  }
+
+  .menu-toggle {
+    right: 3em;
+  }
+
+  .primeiro-titulo {
+    font-size: 0.6em;
+  }
+
+  iframe {
+    height: 50%;
+  }
+
+  .formulario fieldset {
+    padding: 4px;
+  }
+
+  form input {
+    max-width: 10em;
+  }
+
+  form button {
+    width: 8em;
+  }
+
+  .nav-rodape {
+    width: 90%;
+
+    margin-bottom: 1em;
+  }
+
+  .ul-rodape {
+    padding: 0 0.4em;
+  }
+
+  .redes-sociais h1 {
+    font-size: 1.3em;
+  }
+  .redes-sociais i {
+    font-size: 0.4em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .link-img-logo {
+    margin-left: 0.1em;
+  }
+
+  .menu-toggle {
+    right: 0.1em;
+  }
+}

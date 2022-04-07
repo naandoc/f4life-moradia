@@ -1,0 +1,45 @@
+.nav-rodape {
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+}
+
+.ul-rodape {
+  padding: 0.2em 4em 4em;
+}
+
+.ul-rodape li {
+  padding: 1em 0;
+}
+
+.ul-rodape a,
+.ul-rodape li {
+  text-decoration: none;
+
+  color: #132235;
+}
+
+.redes-sociais {
+  width: 60%;
+}
+
+.redes-sociais h1 {
+  font-size: 2em;
+  font-weight: 800;
+  color: #132235;
+
+  text-align: center;
+
+  margin-bottom: 1em;
+}
+
+.icons-redes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icone-rede-sociais {
+  font-size: 5em;
+  color: #132235;
+}
